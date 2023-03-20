@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: right;
+}
+
+
+.quatos{
+    border: 3px solid rgb(185, 2, 2);
+    text-align: center;
+    margin: 0 auto;
+    width: 76%;
+    height: 25vh;
+    padding:2rem 7rem ;
+    flex-direction: column;
+    border-radius: 2rem 0rem 2rem 0rem;
+    background-color: white;
+    font-family: 'Nerko One', cursive;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changeAndtweet{
+    display: flex;
+    justify-content: right;
+    margin-top:.4rem ;
+}
+
+.tweet, .change, .add{
+    border: 2px solid rgb(185, 2, 2);
+    padding: .6rem;
+    background-color: white;
+    margin-left: .3rem;
+    border-radius: .5rem;
+}
+
+a{
+    color: black;
+    padding: 1rem;
+}
+

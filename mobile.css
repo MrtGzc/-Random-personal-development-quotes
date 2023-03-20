@@ -1,0 +1,13 @@
+body{
+    width: auto
+}
+
+.container{
+    width: 90%;
+}
+
+.quatos{
+    padding: .5rem;
+    width: 93%;
+    height: 40vh;
+}
